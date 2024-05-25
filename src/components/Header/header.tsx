@@ -1,10 +1,14 @@
 import foto from "../../assets/foto_perfil.jpg";
+import banner from "../../assets/banner-fhd.png";
 import "animate.css";
 import "./header.css";
 
 const header = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-6 md:gap-12 justify-center items-center py-24 bg-banner bg-cover bg-no-repeat border-b-4 border-black">
+    <div
+      className={`flex flex-col md:flex-row gap-6 md:gap-12 justify-center items-center py-24 bg-cover bg-no-repeat border-b-4 border-black`}
+      style={{ backgroundImage: `url(${banner})` }}
+    >
       <img
         className="animate__animated animate__fadeInLeft object-cover w-[12rem] h-[12rem] rounded-[50%] border-solid border-4 border-black transition duration-300 hover:shadow-2xl dark:hover:shadow-black/30"
         src={foto}
