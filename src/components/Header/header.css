@@ -1,0 +1,19 @@
+.title {
+    color: white;
+    background-color: #f51848;
+    padding: 10px;
+    box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
+    -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+  .header-description {
+      font-size: 30px;
+      text-shadow:
+          0 0 5px #FFF,
+          0 0 10px #FFF,
+          5px 5px 4px #CE2BA0,
+          5px 5px 4px #2146CE,
+          5px 5px 4px #2146CE;
+      color: #FFFFFF;
+  }

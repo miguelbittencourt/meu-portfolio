@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Share Tech', sans-serif;
+    background-image: radial-gradient(#f51848 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#f51848 1.1500000000000001px, #27115a 1.1500000000000001px);
+    background-size: 46px 46px;
+    background-position: 0 0, 23px 23px;
+}
